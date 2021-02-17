@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>tooniversity</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+  </head>
+  <body>
+      <ion-app>
+          <ion-header>
+              <ion-toolbar color="primary">
+                  <ion-title float-left>TOONIVERSITY</ion-title>
+                  <ion-button><ion-icon name="settings-outline" float-right></ion-icon></ion-button>
+                  
+                </div>
+                </ion-toolbar>
+          </ion-header>
+          
+          <ion-content>
+           <ion-list>  
+               <ion-item class="item-text-wrap"> 
+                 <ion-text id="description" class="item-text-wrap"><p>Hello there Students and welcome to TOONIVERSITY! TOONIVERSITY is also about getting your animation trivia in knowledge. We have two quizzes on offer. Our first quiz is about general Western animation knowledge while the other is more geared towards those whoms tastes are that of the Eastern world.</p> </ion-text>
+               </ion-item>
+               <ion-item>
+                <img src="./assets/placeholder.png" alt="placeholder" id="img-choice" width=300>
+               </ion-item>
+               <ion-item>
+                  <ion-button id="toonButton">Cartoons</ion-buton>
+                  </ion-item>
+                  <ion-item>
+                    <ion-button id="animeButton">Anime</ion-buton>
+                 </ion-item>
+          </ion-list>
+          </ion-content>
+      </ion-app>
+      <script src="app.js"></script>
+  </body>
+  </html>
